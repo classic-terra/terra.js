@@ -54,7 +54,6 @@ export namespace StakingPool {
 }
 
 export class StakingAPI extends BaseAPI {
-
   constructor(public lcd: LCDClient) {
     super(lcd.apiRequester);
   }

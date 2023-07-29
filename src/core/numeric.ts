@@ -190,7 +190,7 @@ export class Int extends _Int implements Numeric<Numeric.Output> {
  * Usage is:
  *
  * ```ts
- * import { dec } from "@terra-money/terra.js";
+ * import { dec } from "@terraclassic-community/terra.js";
  *
  * const dec1 = dec`234.12312`;
  * const dec2 = new Dec("234.12312");
@@ -210,7 +210,7 @@ export function dec(strings: TemplateStringsArray): Dec {
  * Usage is:
  *
  * ```ts
- * import { int } from "@terra-money/terra.js";
+ * import { int } from "@terraclassic-community/terra.js";
  *
  * const int1 = int`234`;
  * const int2 = new Int("234");

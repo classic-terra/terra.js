@@ -1,5 +1,5 @@
 import { LCDClient, MsgSend, MnemonicKey } from '../src';
-import { SignMode } from '@terra-money/terra.proto/cosmos/tx/signing/v1beta1/signing';
+import { SignMode } from '@terraclassic-community/terra.proto/cosmos/tx/signing/v1beta1/signing';
 
 async function main() {
   // create a key out of a mnemonic

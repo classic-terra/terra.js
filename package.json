@@ -1,9 +1,9 @@
 {
-  "name": "@terra-money/terra.js",
+  "name": "@terraclassic-community/terra.js",
   "version": "3.1.10",
   "description": "The JavaScript SDK for Terra",
   "license": "MIT",
-  "author": "Terraform Labs, PTE.",
+  "author": "Terra Classic Community",
   "keywords": [
     "terra",
     "stablecoin",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/terra-money/terra.js.git"
+    "url": "git://github.com/classic-terra/terra.js.git"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -54,6 +54,9 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "arrowParens": "avoid"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",

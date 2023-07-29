@@ -1,6 +1,6 @@
 import { LCDClient, MsgSend, MnemonicKey } from '../src';
-import { SignMode } from '@terra-money/terra.proto/cosmos/tx/signing/v1beta1/signing';
-import { TxBody } from '@terra-money/terra.proto/cosmos/tx/v1beta1/tx';
+import { SignMode } from '@terraclassic-community/terra.proto/cosmos/tx/signing/v1beta1/signing';
+import { TxBody } from '@terraclassic-community/terra.proto/cosmos/tx/v1beta1/tx';
 
 async function main() {
   const bombay = new LCDClient({

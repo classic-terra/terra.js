@@ -17,7 +17,7 @@
             "validator": "terravaloper1vk20anceu6h9s00d27pjlvslz3avetkvnwmr35"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -68,7 +68,7 @@
             "validator": "terravaloper1krj7amhhagjnyg2tkkuh6l0550y733jnjnnlzy"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -119,7 +119,7 @@
             "validator": "terravaloper17mleu9mytt87lvuuhvznq7c6meuhv2hv3u4qun"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -170,7 +170,7 @@
             "validator": "terravaloper1yx5f34ka5f4nqhh9yw85m4fmmtklr6r69558w5"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -221,7 +221,7 @@
             "validator": "terravaloper1nn2g97envg5q4k7e0ckrlc2newfaak4x73dzf3"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.14",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.14",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -272,7 +272,7 @@
             "validator": "terravaloper19c5e6crzwxxtaeguxppmu0nlspjttsmje0vnvt"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -323,7 +323,7 @@
             "validator": "terravaloper1vze7n65ccq08auu2xwmptlymu3gdlx0z5j033m"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.14",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.14",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -374,7 +374,7 @@
             "validator": "terravaloper10ja74nnrfpxu6allycnk7y2hcy0njefjqkhjdd"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -425,7 +425,7 @@
             "validator": "terravaloper1dyljpg8zyre4jsv5quk3d24vkqrlyv6zw7keur"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.15",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.15",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -476,7 +476,7 @@
             "validator": "terravaloper1srtv5vweek59ttq8n0ajnycqryfu7xn8ppsz4c"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -527,7 +527,7 @@
             "validator": "terravaloper1u40zfjrzvkqqxyksvwsrg9vp80p8a5zskumz3y"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -578,7 +578,7 @@
             "validator": "terravaloper1jnvet02nuk86258jggtg6ggn2xaldqk97qckuh"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -629,7 +629,7 @@
             "validator": "terravaloper13wz5yvld7hyxjc9gk6am08vlw2e36mngv9guus"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -680,7 +680,7 @@
             "validator": "terravaloper13g7z3qq6f00qww3u4mpcs3xw5jhqwraswraapc"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -731,7 +731,7 @@
             "validator": "terravaloper19pzuhmyf42edr749qxqqth5s6vj6265l82ycje"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -782,7 +782,7 @@
             "validator": "terravaloper18d4583vc6zex4tay9z59gj4llgsmnunxc5u606"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -833,7 +833,7 @@
             "validator": "terravaloper1dmjh83fx5gv9xj7cmq5ewpcjcsyapsh5k80zd9"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -884,7 +884,7 @@
             "validator": "terravaloper14k2yld7wmlaktu6jn49rym42yvy4n5lnn8dxsn"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.14",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.14",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -935,7 +935,7 @@
             "validator": "terravaloper1trpe7wpt2297qasylcgz7ruh09pds4vy0ftgnk"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -986,7 +986,7 @@
             "validator": "terravaloper1dpwua2fap4qf4ztnmasr5an3sm9xhjzyv49qql"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1037,7 +1037,7 @@
             "validator": "terravaloper1062zkmnlqhcpwsryk5kjf345x6njzzksqk9ljl"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1088,7 +1088,7 @@
             "validator": "terravaloper19ne0aqltndwxl0n32zyuglp2z8mm3nu0gxpfaw"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1139,7 +1139,7 @@
             "validator": "terravaloper1fgcdvav7e94xrkjundz70z4s2umy8quhkvvzqe"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1190,7 +1190,7 @@
             "validator": "terravaloper1pfkp8qqha94vcahh5pll3hd8ujxu8j30xvlqmh"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1241,7 +1241,7 @@
             "validator": "terravaloper10lk5rrz3srq28ap6x68c9hs86zvvtpm0jkn5qh"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1292,7 +1292,7 @@
             "validator": "terravaloper1qxqrtvg3smlfdfhvwcdzh0huh4f50kfs6gdt4x"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1343,7 +1343,7 @@
             "validator": "terravaloper13mql7xeyfe3v8m9v409jg3wnnh2qlkgsl9dw5s"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1394,7 +1394,7 @@
             "validator": "terravaloper1ex5f52p8zrtp8scypn0l40qr2yd2w6wzv3r28g"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1445,7 +1445,7 @@
             "validator": "terravaloper1605wepehf6mqakxaxxggy4mzv2jfgnm22yslhv"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1496,7 +1496,7 @@
             "validator": "terravaloper16yf7sdu7p7zkvcrexkameykk9za7wsuu8udt5u"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1547,7 +1547,7 @@
             "validator": "terravaloper165xv35n42lt75tdvcvddgz923hstu8x9fy9px7"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1598,7 +1598,7 @@
             "validator": "terravaloper163jcs6vh7ge2ukru9x26a6wfwcutgpef7qnw02"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1649,7 +1649,7 @@
             "validator": "terravaloper1d4cfnc637k94hphegd7qv2rcgl50tqzc27a3h5"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1700,7 +1700,7 @@
             "validator": "terravaloper1gft6czpkya78ld909gwkdp8um3uu8ns8ra6d9a"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1751,7 +1751,7 @@
             "validator": "terravaloper1d3jscm77t4du8x0qczw6rkwemwwp4mlv98u9rk"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1802,7 +1802,7 @@
             "validator": "terravaloper1gtjjcll5wywptctrg8e648sfnjj398qxq9nmke"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1853,7 +1853,7 @@
             "validator": "terravaloper1peytphgvnmaz4fah8daww2yaugpw27cdkvcywa"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.15",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.15",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1904,7 +1904,7 @@
             "validator": "terravaloper1yhcs4ympvnssh0p959quh3u5z36qcqanssxm5u"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -1955,7 +1955,7 @@
             "validator": "terravaloper12fktk3ruh8dttgntxemda5vq79g85gg399j3wd"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2006,7 +2006,7 @@
             "validator": "terravaloper12mhgmucrjdwr59cs0uw64v0ppmcar62mmq8336"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2057,7 +2057,7 @@
             "validator": "terravaloper1gk2jlzl2eh5w25kgz93ynqgrfrngrg6yxlpfjn"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2108,7 +2108,7 @@
             "validator": "terravaloper19zgr0ztha9x6pjt4du80uvrx2tyuqc6desnnlh"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.13",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.13",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2159,7 +2159,7 @@
             "validator": "terravaloper12jpzzmwthrljcvm48adncspxtchazkl8vah7u4"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2210,7 +2210,7 @@
             "validator": "terravaloper1h2nptg7rk5jjrhqnylhy7yvmanhnl3e5lztft4"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.14",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.14",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2261,7 +2261,7 @@
             "validator": "terravaloper1c0nue9ggs677fdxwr87lrc38uu38uwlkpxfauc"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2312,7 +2312,7 @@
             "validator": "terravaloper1n0cdzvftzhq2yguwwthuuhfj0m3z2jxeznktpj"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2363,7 +2363,7 @@
             "validator": "terravaloper1ry7vkte2zt2l7hd0qfavl9wpkl0xnn69ytdvv6"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2414,7 +2414,7 @@
             "validator": "terravaloper18t8mtyvxlxf2gjh4x5r06gjfg0nk6gqs974uxh"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2465,7 +2465,7 @@
             "validator": "terravaloper18hpew39uymssr52w8euxqh4zrrjt02x7k0jmhk"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2516,7 +2516,7 @@
             "validator": "terravaloper1suajquk09k9d0upnexlydhurc5t9uh4rn4k0wd"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2567,7 +2567,7 @@
             "validator": "terravaloper1mysdpsvzveqd45sj8w75uktrcn86p0aw0dtmr2"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2618,7 +2618,7 @@
             "validator": "terravaloper1g6g0v23c6tv75ygk5za4s2ewwestdfj0k2cy2x"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.15",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.15",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2669,7 +2669,7 @@
             "validator": "terravaloper1pr6pwyjqjxvx0axaqt56a4g3wukacg2jd8n00l"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2720,7 +2720,7 @@
             "validator": "terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2771,7 +2771,7 @@
             "validator": "terravaloper1e4maqhd9uptu0hepx34xt6hje930m6k8j34q6f"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2822,7 +2822,7 @@
             "validator": "terravaloper149hh2rvf3ye52ezwslrx9r6qaxryh7snvxrwdd"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.14",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.14",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2873,7 +2873,7 @@
             "validator": "terravaloper177hn4lnsk2gckff09hcdqxwmqpk98g639lwfys"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2924,7 +2924,7 @@
             "validator": "terravaloper1xynrfr4uapxyq04ysnl0r6gvnxllmc0tydp737"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -2975,7 +2975,7 @@
             "validator": "terravaloper1fa2gmum9kl9ms73hnrhvg0rkk0s9jvqxpunyr3"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3026,7 +3026,7 @@
             "validator": "terravaloper1hcsjvt28u6d7dy3uju90257g6dhtpas2szpxx5"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3077,7 +3077,7 @@
             "validator": "terravaloper15fl0fcnzreazj50x25rvyvr0rtn0nq2n742cxm"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3128,7 +3128,7 @@
             "validator": "terravaloper1p3rgf35lhvwu9culc33l3d2ys756dwarurra29"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.16",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.16",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3179,7 +3179,7 @@
             "validator": "terravaloper1nqa8l33hv6ktag2vad2n2m8fwafl47vy9txpx3"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3230,7 +3230,7 @@
             "validator": "terravaloper12mcn4pj7d8yeff0xfedcthqe9gs3vwc2tn8sy2"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3281,7 +3281,7 @@
             "validator": "terravaloper18sa48sgrvp8mwt5lq8y0zaumzvqtgsrfjzzmtp"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3332,7 +3332,7 @@
             "validator": "terravaloper199dxm2ydd5v5tl5ftqgughrurqz6z0nxa564r7"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3383,7 +3383,7 @@
             "validator": "terravaloper1vf2209f5y7s4a66n5ng7wmup5gcc2kghhzy89w"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3434,7 +3434,7 @@
             "validator": "terravaloper16d2keu3l8vy7utpuyuylp3um3tjwz8k6j7q2g5"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3485,7 +3485,7 @@
             "validator": "terravaloper1thuj2a8sgtxr7z3gr39egng3syqqwas4hmvvlg"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.3.14",
+        "memo": "@terraclassic-community/oracle-feeder@1.3.14",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3536,7 +3536,7 @@
             "validator": "terravaloper16tdsr4kpgzzl4aauyxpmhcgpfl4gnxljpdqvu0"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3587,7 +3587,7 @@
             "validator": "terravaloper1tu27lm4vh97vgdtnxy9jdld69fxmyct2uc42j0"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3638,7 +3638,7 @@
             "validator": "terravaloper1xs7q33p87vrxqdxwmwlgd54vacs7lt6uf56f7e"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3689,7 +3689,7 @@
             "validator": "terravaloper12fdlnnc9hsphdrt07hqjzazudc8ztc999h2auz"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.6",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.6",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3740,7 +3740,7 @@
             "validator": "terravaloper1z24uztlwzle0q8afd7r89cv9ltsmwxaahm9f6z"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3791,7 +3791,7 @@
             "validator": "terravaloper13z404ppm7x94zwmwczjptdyyftypghq2emgvdr"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3842,7 +3842,7 @@
             "validator": "terravaloper1xp4n9e5cnz4ksmtttv4r4xpy2205jgrgj8t2sa"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3893,7 +3893,7 @@
             "validator": "terravaloper1mr3dlyudqq2tv9yfagjqjcygz9dnt029ekd3mw"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -3995,7 +3995,7 @@
             "validator": "terravaloper1d03dz5n3hj8qfzfjvrza8a9t0hejwnjcdllfga"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -4046,7 +4046,7 @@
             "validator": "terravaloper1jwcweus9vjwwh2at3mk079pm5s336fxp7z70u2"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -4097,7 +4097,7 @@
             "validator": "terravaloper1gu58kll9kmcht2aqr5m25kh9798stlnvt3kq4y"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -4148,7 +4148,7 @@
             "validator": "terravaloper1k2hysfv53a0q589m5hvp5dsa0hg77gls0m6ze5"
           }
         ],
-        "memo": "@terra-money/oracle-feeder@1.4.5",
+        "memo": "@terraclassic-community/oracle-feeder@1.4.5",
         "timeout_height": "0",
         "extension_options": [
         ],
@@ -4529,7 +4529,7 @@
               "validator": "terravaloper1vk20anceu6h9s00d27pjlvslz3avetkvnwmr35"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -4663,7 +4663,7 @@
               "validator": "terravaloper1krj7amhhagjnyg2tkkuh6l0550y733jnjnnlzy"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -4797,7 +4797,7 @@
               "validator": "terravaloper17mleu9mytt87lvuuhvznq7c6meuhv2hv3u4qun"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -4931,7 +4931,7 @@
               "validator": "terravaloper1yx5f34ka5f4nqhh9yw85m4fmmtklr6r69558w5"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -5065,7 +5065,7 @@
               "validator": "terravaloper1nn2g97envg5q4k7e0ckrlc2newfaak4x73dzf3"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.14",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.14",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -5199,7 +5199,7 @@
               "validator": "terravaloper19c5e6crzwxxtaeguxppmu0nlspjttsmje0vnvt"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -5333,7 +5333,7 @@
               "validator": "terravaloper1vze7n65ccq08auu2xwmptlymu3gdlx0z5j033m"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.14",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.14",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -5467,7 +5467,7 @@
               "validator": "terravaloper10ja74nnrfpxu6allycnk7y2hcy0njefjqkhjdd"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -5601,7 +5601,7 @@
               "validator": "terravaloper1dyljpg8zyre4jsv5quk3d24vkqrlyv6zw7keur"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.15",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.15",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -5735,7 +5735,7 @@
               "validator": "terravaloper1srtv5vweek59ttq8n0ajnycqryfu7xn8ppsz4c"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -5869,7 +5869,7 @@
               "validator": "terravaloper1u40zfjrzvkqqxyksvwsrg9vp80p8a5zskumz3y"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6003,7 +6003,7 @@
               "validator": "terravaloper1jnvet02nuk86258jggtg6ggn2xaldqk97qckuh"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6137,7 +6137,7 @@
               "validator": "terravaloper13wz5yvld7hyxjc9gk6am08vlw2e36mngv9guus"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6271,7 +6271,7 @@
               "validator": "terravaloper13g7z3qq6f00qww3u4mpcs3xw5jhqwraswraapc"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6405,7 +6405,7 @@
               "validator": "terravaloper19pzuhmyf42edr749qxqqth5s6vj6265l82ycje"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6539,7 +6539,7 @@
               "validator": "terravaloper18d4583vc6zex4tay9z59gj4llgsmnunxc5u606"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6673,7 +6673,7 @@
               "validator": "terravaloper1dmjh83fx5gv9xj7cmq5ewpcjcsyapsh5k80zd9"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6807,7 +6807,7 @@
               "validator": "terravaloper14k2yld7wmlaktu6jn49rym42yvy4n5lnn8dxsn"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.14",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.14",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -6941,7 +6941,7 @@
               "validator": "terravaloper1trpe7wpt2297qasylcgz7ruh09pds4vy0ftgnk"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -7075,7 +7075,7 @@
               "validator": "terravaloper1dpwua2fap4qf4ztnmasr5an3sm9xhjzyv49qql"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -7209,7 +7209,7 @@
               "validator": "terravaloper1062zkmnlqhcpwsryk5kjf345x6njzzksqk9ljl"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -7343,7 +7343,7 @@
               "validator": "terravaloper19ne0aqltndwxl0n32zyuglp2z8mm3nu0gxpfaw"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -7477,7 +7477,7 @@
               "validator": "terravaloper1fgcdvav7e94xrkjundz70z4s2umy8quhkvvzqe"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -7611,7 +7611,7 @@
               "validator": "terravaloper1pfkp8qqha94vcahh5pll3hd8ujxu8j30xvlqmh"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -7745,7 +7745,7 @@
               "validator": "terravaloper10lk5rrz3srq28ap6x68c9hs86zvvtpm0jkn5qh"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -7879,7 +7879,7 @@
               "validator": "terravaloper1qxqrtvg3smlfdfhvwcdzh0huh4f50kfs6gdt4x"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8013,7 +8013,7 @@
               "validator": "terravaloper13mql7xeyfe3v8m9v409jg3wnnh2qlkgsl9dw5s"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8147,7 +8147,7 @@
               "validator": "terravaloper1ex5f52p8zrtp8scypn0l40qr2yd2w6wzv3r28g"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8281,7 +8281,7 @@
               "validator": "terravaloper1605wepehf6mqakxaxxggy4mzv2jfgnm22yslhv"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8415,7 +8415,7 @@
               "validator": "terravaloper16yf7sdu7p7zkvcrexkameykk9za7wsuu8udt5u"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8549,7 +8549,7 @@
               "validator": "terravaloper165xv35n42lt75tdvcvddgz923hstu8x9fy9px7"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8683,7 +8683,7 @@
               "validator": "terravaloper163jcs6vh7ge2ukru9x26a6wfwcutgpef7qnw02"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8817,7 +8817,7 @@
               "validator": "terravaloper1d4cfnc637k94hphegd7qv2rcgl50tqzc27a3h5"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -8951,7 +8951,7 @@
               "validator": "terravaloper1gft6czpkya78ld909gwkdp8um3uu8ns8ra6d9a"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -9085,7 +9085,7 @@
               "validator": "terravaloper1d3jscm77t4du8x0qczw6rkwemwwp4mlv98u9rk"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -9219,7 +9219,7 @@
               "validator": "terravaloper1gtjjcll5wywptctrg8e648sfnjj398qxq9nmke"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -9353,7 +9353,7 @@
               "validator": "terravaloper1peytphgvnmaz4fah8daww2yaugpw27cdkvcywa"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.15",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.15",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -9487,7 +9487,7 @@
               "validator": "terravaloper1yhcs4ympvnssh0p959quh3u5z36qcqanssxm5u"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -9621,7 +9621,7 @@
               "validator": "terravaloper12fktk3ruh8dttgntxemda5vq79g85gg399j3wd"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -9755,7 +9755,7 @@
               "validator": "terravaloper12mhgmucrjdwr59cs0uw64v0ppmcar62mmq8336"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -9889,7 +9889,7 @@
               "validator": "terravaloper1gk2jlzl2eh5w25kgz93ynqgrfrngrg6yxlpfjn"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10023,7 +10023,7 @@
               "validator": "terravaloper19zgr0ztha9x6pjt4du80uvrx2tyuqc6desnnlh"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.13",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.13",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10157,7 +10157,7 @@
               "validator": "terravaloper12jpzzmwthrljcvm48adncspxtchazkl8vah7u4"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10291,7 +10291,7 @@
               "validator": "terravaloper1h2nptg7rk5jjrhqnylhy7yvmanhnl3e5lztft4"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.14",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.14",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10425,7 +10425,7 @@
               "validator": "terravaloper1c0nue9ggs677fdxwr87lrc38uu38uwlkpxfauc"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10559,7 +10559,7 @@
               "validator": "terravaloper1n0cdzvftzhq2yguwwthuuhfj0m3z2jxeznktpj"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10693,7 +10693,7 @@
               "validator": "terravaloper1ry7vkte2zt2l7hd0qfavl9wpkl0xnn69ytdvv6"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10827,7 +10827,7 @@
               "validator": "terravaloper18t8mtyvxlxf2gjh4x5r06gjfg0nk6gqs974uxh"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -10961,7 +10961,7 @@
               "validator": "terravaloper18hpew39uymssr52w8euxqh4zrrjt02x7k0jmhk"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -11095,7 +11095,7 @@
               "validator": "terravaloper1suajquk09k9d0upnexlydhurc5t9uh4rn4k0wd"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -11229,7 +11229,7 @@
               "validator": "terravaloper1mysdpsvzveqd45sj8w75uktrcn86p0aw0dtmr2"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -11363,7 +11363,7 @@
               "validator": "terravaloper1g6g0v23c6tv75ygk5za4s2ewwestdfj0k2cy2x"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.15",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.15",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -11497,7 +11497,7 @@
               "validator": "terravaloper1pr6pwyjqjxvx0axaqt56a4g3wukacg2jd8n00l"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -11631,7 +11631,7 @@
               "validator": "terravaloper1d3fv2cjukt0e6lrzd8d857jatlkht7wcp85zar"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -11765,7 +11765,7 @@
               "validator": "terravaloper1e4maqhd9uptu0hepx34xt6hje930m6k8j34q6f"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -11899,7 +11899,7 @@
               "validator": "terravaloper149hh2rvf3ye52ezwslrx9r6qaxryh7snvxrwdd"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.14",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.14",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12033,7 +12033,7 @@
               "validator": "terravaloper177hn4lnsk2gckff09hcdqxwmqpk98g639lwfys"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12167,7 +12167,7 @@
               "validator": "terravaloper1xynrfr4uapxyq04ysnl0r6gvnxllmc0tydp737"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12301,7 +12301,7 @@
               "validator": "terravaloper1fa2gmum9kl9ms73hnrhvg0rkk0s9jvqxpunyr3"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12435,7 +12435,7 @@
               "validator": "terravaloper1hcsjvt28u6d7dy3uju90257g6dhtpas2szpxx5"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12569,7 +12569,7 @@
               "validator": "terravaloper15fl0fcnzreazj50x25rvyvr0rtn0nq2n742cxm"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12703,7 +12703,7 @@
               "validator": "terravaloper1p3rgf35lhvwu9culc33l3d2ys756dwarurra29"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.16",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.16",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12837,7 +12837,7 @@
               "validator": "terravaloper1nqa8l33hv6ktag2vad2n2m8fwafl47vy9txpx3"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -12971,7 +12971,7 @@
               "validator": "terravaloper12mcn4pj7d8yeff0xfedcthqe9gs3vwc2tn8sy2"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -13105,7 +13105,7 @@
               "validator": "terravaloper18sa48sgrvp8mwt5lq8y0zaumzvqtgsrfjzzmtp"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -13239,7 +13239,7 @@
               "validator": "terravaloper199dxm2ydd5v5tl5ftqgughrurqz6z0nxa564r7"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -13373,7 +13373,7 @@
               "validator": "terravaloper1vf2209f5y7s4a66n5ng7wmup5gcc2kghhzy89w"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -13507,7 +13507,7 @@
               "validator": "terravaloper16d2keu3l8vy7utpuyuylp3um3tjwz8k6j7q2g5"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -13641,7 +13641,7 @@
               "validator": "terravaloper1thuj2a8sgtxr7z3gr39egng3syqqwas4hmvvlg"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.3.14",
+          "memo": "@terraclassic-community/oracle-feeder@1.3.14",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -13775,7 +13775,7 @@
               "validator": "terravaloper16tdsr4kpgzzl4aauyxpmhcgpfl4gnxljpdqvu0"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -13909,7 +13909,7 @@
               "validator": "terravaloper1tu27lm4vh97vgdtnxy9jdld69fxmyct2uc42j0"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -14043,7 +14043,7 @@
               "validator": "terravaloper1xs7q33p87vrxqdxwmwlgd54vacs7lt6uf56f7e"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -14177,7 +14177,7 @@
               "validator": "terravaloper12fdlnnc9hsphdrt07hqjzazudc8ztc999h2auz"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.6",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.6",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -14311,7 +14311,7 @@
               "validator": "terravaloper1z24uztlwzle0q8afd7r89cv9ltsmwxaahm9f6z"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -14445,7 +14445,7 @@
               "validator": "terravaloper13z404ppm7x94zwmwczjptdyyftypghq2emgvdr"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -14579,7 +14579,7 @@
               "validator": "terravaloper1xp4n9e5cnz4ksmtttv4r4xpy2205jgrgj8t2sa"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -14713,7 +14713,7 @@
               "validator": "terravaloper1mr3dlyudqq2tv9yfagjqjcygz9dnt029ekd3mw"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -14981,7 +14981,7 @@
               "validator": "terravaloper1d03dz5n3hj8qfzfjvrza8a9t0hejwnjcdllfga"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -15115,7 +15115,7 @@
               "validator": "terravaloper1jwcweus9vjwwh2at3mk079pm5s336fxp7z70u2"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -15249,7 +15249,7 @@
               "validator": "terravaloper1gu58kll9kmcht2aqr5m25kh9798stlnvt3kq4y"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
@@ -15383,7 +15383,7 @@
               "validator": "terravaloper1k2hysfv53a0q589m5hvp5dsa0hg77gls0m6ze5"
             }
           ],
-          "memo": "@terra-money/oracle-feeder@1.4.5",
+          "memo": "@terraclassic-community/oracle-feeder@1.4.5",
           "timeout_height": "0",
           "extension_options": [
           ],
