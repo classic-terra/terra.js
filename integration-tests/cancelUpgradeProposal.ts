@@ -8,7 +8,6 @@ import { CancelSoftwareUpgradeProposal } from '../src/core/upgrade/proposals'
 const client = new LCDClient({
   chainID: 'localterra',
   URL: 'http://localhost:1317',
-  gasPrices: { uusd: 0.38 },
 });
 
 // LocalTerra test1 terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v
@@ -19,7 +18,7 @@ const mk = new MnemonicKey({
 
 const wallet = client.wallet(mk);
 
-const prop = new CancelSoftwareUpgradeProposal("UPGRADE PROPOSAL", "SOFTWARE UPGRADE DESC");
+const prop = new CancelSoftwareUpgradeProposal("v6", "SOFTWARE UPGRADE DESC");
 
 async function main() {
   const execute = new MsgSubmitProposal(

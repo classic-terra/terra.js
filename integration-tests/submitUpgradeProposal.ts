@@ -5,7 +5,6 @@ import { SoftwareUpgradeProposal } from '../src/core/upgrade/proposals';
 const client = new LCDClient({
   chainID: 'localterra',
   URL: 'http://localhost:1317',
-  gasPrices: { uusd: 0.38 },
 });
 
 // LocalTerra test1 terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v
@@ -20,7 +19,7 @@ async function main() {
   const blockInfo = await client.tendermint.blockInfo();
 
   const plan = new Plan(
-    'v0.5.3',
+    'v6',
     undefined,
     (+blockInfo.block.header.height + 100).toString(),
     'planinfo',

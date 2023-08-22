@@ -8,8 +8,8 @@ import {
 } from '../src';
 
 const client = new LCDClient({
-  chainID: 'bombay-12',
-  URL: 'https://bombay-lcd.terra.dev',
+  chainID: 'localterra',
+  URL: 'http://localhost:1317',
 });
 
 // LocalTerra test1 terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v
@@ -31,7 +31,7 @@ async function main() {
       description,
       changes
     ),
-    { uluna: 10000000 },
+    { uluna: 1000000 },
     wallet.key.accAddress
   );
 

@@ -5,6 +5,7 @@ import {
   LegacyAminoMultisigPublicKey,
   SimplePublicKey,
   MsgSend,
+  Fee,
 } from '../src';
 import { MultiSignature } from '../src/core/MultiSignature';
 import { SignatureV2 } from '../src/core/SignatureV2';
@@ -35,10 +36,10 @@ async function main() {
     mk3.publicKey as SimplePublicKey,
   ]);
 
-  const bombay = new LCDClient({
+  const client = new LCDClient({
     chainID: 'localterra',
     URL: 'http://localhost:1317',
-    gasPrices: { uusd: 0.38 },
+    isClassic: true,
   });
 
   const address = multisigPubkey.address();
@@ -48,11 +49,11 @@ async function main() {
   const send = new MsgSend(
     address,
     'terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v',
-    { uusd: 100000 }
+    { uluna: 10000 }
   );
 
-  const accInfo = await bombay.auth.accountInfo(address);
-  const tx = await bombay.tx.create(
+  const accInfo = await client.auth.accountInfo(address);
+  const tx = await client.tx.create(
     [
       {
         address,
@@ -63,29 +64,30 @@ async function main() {
     {
       msgs: [send],
       memo: 'memo',
-      gasPrices: { uusd: 0.456 },
-      gasAdjustment: 1.2,
+      fee: new Fee(200000, '10uluna'),
     }
   );
 
   const sig1 = await mk3.createSignatureAmino(
     new SignDoc(
-      bombay.config.chainID,
+      client.config.chainID,
       accInfo.getAccountNumber(),
       accInfo.getSequenceNumber(),
       tx.auth_info,
       tx.body
-    )
+    ),
+    client.config.isClassic,
   );
 
   const sig2 = await mk2.createSignatureAmino(
     new SignDoc(
-      bombay.config.chainID,
+      client.config.chainID,
       accInfo.getAccountNumber(),
       accInfo.getSequenceNumber(),
       tx.auth_info,
       tx.body
-    )
+    ),
+    client.config.isClassic,
   );
 
   multisig.appendSignatureV2s([sig1, sig2]);
@@ -96,8 +98,9 @@ async function main() {
       accInfo.getSequenceNumber()
     ),
   ]);
-  console.log(JSON.stringify(tx.toData()));
-  bombay.tx.broadcastBlock(tx).then(console.log);
+  console.log(JSON.stringify(tx.toData(), null, 2));
+  const result = await client.tx.broadcastBlock(tx);
+  console.log(result);
 }
 
 main().catch(console.error);

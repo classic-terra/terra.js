@@ -8,6 +8,7 @@ import {
   Coins,
   MsgExecAuthorized,
   MsgRevokeAuthorization,
+  AuthorizationGrant,
 } from '../src';
 
 function grant(
@@ -20,8 +21,7 @@ function grant(
     new MsgGrantAuthorization(
       granter.key.accAddress,
       grantee.key.accAddress,
-      new SendAuthorization(spendLimit),
-      expiration
+      new AuthorizationGrant(new SendAuthorization(spendLimit), expiration),
     ),
   ];
 
@@ -63,7 +63,6 @@ async function main() {
   const client = new LCDClient({
     URL: 'http://localhost:1317',
     chainID: 'localterra',
-    gasPrices: '169.77ukrw',
   });
 
   // Granter (terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v)
@@ -87,7 +86,7 @@ async function main() {
     granter,
     grantee,
     // Set enough spend limit since it will be decreased upon every MsgSend transactions
-    '1000000000000000ukrw',
+    '1000000000000000uluna',
     // expire after 100 year
     new Date('2050-01-01')
   )
@@ -107,7 +106,7 @@ async function main() {
     grantee,
     // Test3
     'terra1757tkx08n0cqrw7p86ny9lnxsqeth0wgp0em95',
-    '2000000000000ukrw'
+    '1000000uluna'
   )
     .then(tx => client.tx.broadcast(tx))
     .then(console.info)

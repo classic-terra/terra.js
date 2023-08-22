@@ -1,5 +1,4 @@
 import { LCDClient, MsgSend, MnemonicKey } from '../src';
-import { SignMode } from '@terraclassic-community/terra.proto/cosmos/tx/signing/v1beta1/signing';
 
 async function main() {
   // create a key out of a mnemonic
@@ -8,15 +7,14 @@ async function main() {
       'notice oak worry limit wrap speak medal online prefer cluster roof addict wrist behave treat actual wasp year salad speed social layer crew genius',
   });
 
-  const bombay = new LCDClient({
-    chainID: 'bombay-12',
-    URL: 'https://bombay-lcd.terra.dev',
-    gasPrices: { uusd: 0.15 },
+  const client = new LCDClient({
+    chainID: 'localterra',
+    URL: 'http://localhost:1317',
   });
 
   // a wallet can be created out of any key
   // wallets abstract transaction building
-  const wallet = bombay.wallet(mk);
+  const wallet = client.wallet(mk);
 
   // create a simple message that moves coin balances
   const send = new MsgSend(
@@ -32,8 +30,8 @@ async function main() {
 	});
 
 
-  const encoded = bombay.tx.encode(tx);
-  const decoded = bombay.tx.decode(encoded);
+  const encoded = client.tx.encode(tx);
+  const decoded = client.tx.decode(encoded);
 
   console.log(`\n\tstringified:${JSON.stringify(tx)}`);
   console.log(`\n\tencoded:${encoded}`);

@@ -1,5 +1,4 @@
-import { LCDClient, MsgSend, MnemonicKey } from '../src';
-import { SignMode } from '@terraclassic-community/terra.proto/cosmos/tx/signing/v1beta1/signing';
+import { LCDClient, MsgSend, MnemonicKey, Fee } from '../src';
 
 async function main() {
   // create a key out of a mnemonic
@@ -8,40 +7,33 @@ async function main() {
       'notice oak worry limit wrap speak medal online prefer cluster roof addict wrist behave treat actual wasp year salad speed social layer crew genius',
   });
 
-  const bombay = new LCDClient({
+  const client = new LCDClient({
     chainID: 'localterra',
     URL: 'http://localhost:1317',
   });
 
   // a wallet can be created out of any key
   // wallets abstract transaction building
-  const wallet = bombay.wallet(mk);
+  const wallet = client.wallet(mk);
 
   // create a simple message that moves coin balances
   const send = new MsgSend(
     'terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v',
     'terra17lmam6zguazs5q5u6z5mmx76uj63gldnse2pdp',
-    { uluna: 1000 }
+    { uluna: 1000000 }
   );
 
-  wallet
+  return wallet
     .createAndSignTx({
-      signMode: SignMode.SIGN_MODE_LEGACY_AMINO_JSON,
       msgs: [send],
       memo: 'test from terra.js!',
+      fee: new Fee(200000, '1000uluna'),
     })
     .then(tx => {
-    	/*
-    	tx.body.messages[0] = new MsgSend(
-    'terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v',
-    'terra17lmam6zguazs5q5u6z5mmx76uj63gldnse2pdp',
-    { uluna: 2000 }
-		);
-		*/
-      return bombay.tx.broadcast(tx);
+      return client.tx.broadcast(tx);
     })
     .then(result => {
-      console.log(`TX hash: ${result.txhash}  ${result.raw_log}`);
+      console.log(JSON.stringify(result, null, 2));
     });
 }
 

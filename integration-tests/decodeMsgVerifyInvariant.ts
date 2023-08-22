@@ -1,25 +1,16 @@
-import { LCDClient, MsgSend, MnemonicKey } from '../src';
-import { SignMode } from '@terraclassic-community/terra.proto/cosmos/tx/signing/v1beta1/signing';
-import { TxBody } from '@terraclassic-community/terra.proto/cosmos/tx/v1beta1/tx';
+import { LCDClient } from '../src';
 
 async function main() {
-  const bombay = new LCDClient({
-    chainID: 'bombay-12',
-    URL: 'https://bombay-lcd.terra.dev',
-    gasPrices: { uusd: 0.15 },
+  const client = new LCDClient({
+    chainID: 'localterra',
+    URL: 'http://localhost:1317',
+    isClassic: true,
   });
 
-  (await bombay.tx.txInfosByHeight(8152638)).
+  (await client.tx.txInfosByHeight(1538)).
     map((tx) => {
       console.log(JSON.stringify(tx));
     });
-
-
-  (await bombay.tx.txInfosByHeight(8153558)).
-    map((tx) => {
-      console.log(JSON.stringify(tx));
-    });
-
 }
 
 main().catch(console.error);
