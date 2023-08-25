@@ -5,7 +5,6 @@ import {
   LegacyAminoMultisigPublicKey,
   SimplePublicKey,
   MsgSend,
-  Fee,
 } from '../src';
 import { MultiSignature } from '../src/core/MultiSignature';
 import { SignatureV2 } from '../src/core/SignatureV2';
@@ -39,7 +38,7 @@ async function main() {
   const client = new LCDClient({
     chainID: 'localterra',
     URL: 'http://localhost:1317',
-    isClassic: true,
+    isClassic: !!process.env.TERRA_IS_CLASSIC,
   });
 
   const address = multisigPubkey.address();
@@ -64,7 +63,6 @@ async function main() {
     {
       msgs: [send],
       memo: 'memo',
-      fee: new Fee(200000, '10uluna'),
     }
   );
 

@@ -10,6 +10,7 @@ import {
 const client = new LCDClient({
   chainID: 'localterra',
   URL: 'http://localhost:1317',
+  isClassic: !!process.env.TERRA_IS_CLASSIC,
 });
 
 // LocalTerra test1 terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v
@@ -35,12 +36,13 @@ async function main() {
     wallet.key.accAddress
   );
 
-  const executeTx = await wallet.createAndSignTx({
+  const tx = await wallet.createAndSignTx({
     msgs: [execute],
   });
 
-  const executeTxResult = await client.tx.broadcastSync(executeTx);
-  console.log(executeTxResult);
+  console.log(JSON.stringify(tx, null, 2));
+  const result = await client.tx.broadcast(tx);
+  console.log(result);
 }
 
 main().catch(console.error);

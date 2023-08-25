@@ -10,7 +10,7 @@ import {
 import { AccessConfig, AccessType } from '../src/core/wasm/AccessConfig';
 import * as fs from 'fs';
 
-const isClassic = false;
+const isClassic = !!process.env.TERRA_IS_CLASSIC;
 const client = new LocalTerra(isClassic);
 
 // test1 key from localterra accounts
@@ -19,8 +19,8 @@ const { test1 } = client.wallets;
 async function main(): Promise<void> {
   const storeCode = new MsgStoreCode(
     test1.key.accAddress,
-    fs.readFileSync(isClassic ? 'contract.wasm.7' : 'contract.wasm.8').toString('base64'),
-    isClassic ? undefined : new AccessConfig(AccessType.ACCESS_TYPE_EVERYBODY, "")
+    fs.readFileSync('contract.wasm.8').toString('base64'),
+    new AccessConfig(AccessType.ACCESS_TYPE_EVERYBODY, "")
   );
   const storeCodeTx = await test1.createAndSignTx({
     msgs: [storeCode],
@@ -59,7 +59,7 @@ async function main(): Promise<void> {
     );
   }
 
-  const contractAddress = getContractAddress(instantiateTxResult, 0, isClassic);
+  const contractAddress = getContractAddress(instantiateTxResult, 0);
 
   const execute = new MsgExecuteContract(
     test1.key.accAddress, // sender
@@ -79,7 +79,6 @@ async function main(): Promise<void> {
   console.log(history.map(h => h.toData()));
   console.log(JSON.stringify(await client.wasm.contractInfo(contractAddress)));
   console.log(JSON.stringify(await client.wasm.codeInfo(+codeId)));
-
 }
 
-main().then(console.log).catch(console.log)
+main().catch(console.log);

@@ -8,6 +8,7 @@ async function main() {
   const client = new LCDClient({
     chainID: 'localterra',
     URL: 'http://localhost:1317',
+    isClassic: !!process.env.TERRA_IS_CLASSIC,
   });
 
   const accountInfo = await client.auth.accountInfo(
@@ -26,7 +27,6 @@ async function main() {
   const txOptions: CreateTxOptions = {
     msgs,
     memo,
-    gasAdjustment: 1.75,
   };
   // Test raw estimate fee function with specified gas
   const rawFee = await client.tx.estimateFee(

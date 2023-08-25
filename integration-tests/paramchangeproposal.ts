@@ -5,7 +5,7 @@ import {
 } from '../src';
 
 // test1 key from localterra accounts
-const client = new LocalTerra();
+const client = new LocalTerra(!!process.env.TERRA_IS_CLASSIC);
 const { test1 } = client.wallets;
 
 const proposal = new ParameterChangeProposal('testing params', 'yay!', [
@@ -184,7 +184,9 @@ async function main() {
     msgs: [submitProposal],
   });
 
-  return client.tx.broadcast(tx);
+  console.log(JSON.stringify(tx, null, 2));
+  const result = await client.tx.broadcast(tx);
+  console.log(result);
 }
 
-main().then(console.log).catch(console.error);
+main().catch(console.error);

@@ -1,8 +1,6 @@
-import { LCDClient, MsgSend, MnemonicKey, Fee } from '../src';
-import { SignMode } from '@classic-terra/terra.proto/cosmos/tx/signing/v1beta1/signing';
+import { LCDClient, MsgSwap, Coin, MnemonicKey } from '../src';
 
 async function main() {
-  // create a key out of a mnemonic
   const mk = new MnemonicKey({
     mnemonic:
       'notice oak worry limit wrap speak medal online prefer cluster roof addict wrist behave treat actual wasp year salad speed social layer crew genius',
@@ -14,22 +12,17 @@ async function main() {
     isClassic: !!process.env.TERRA_IS_CLASSIC,
   });
 
-  // a wallet can be created out of any key
-  // wallets abstract transaction building
   const wallet = client.wallet(mk);
-
-  // create a simple message that moves coin balances
-  const send = new MsgSend(
+  const msg = new MsgSwap(
     'terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v',
-    'terra17lmam6zguazs5q5u6z5mmx76uj63gldnse2pdp',
-    { uluna: 1000000 }
+    new Coin('uluna', 1_000_000_000),
+    'uusd'
   );
 
   await wallet
     .createAndSignTx({
-      msgs: [send],
-      memo: 'test from terra.js!',
-      signMode: SignMode.SIGN_MODE_LEGACY_AMINO_JSON,
+      msgs: [msg],
+      memo: 'swap from terra.js!',
     })
     .then(tx => {
       console.log(JSON.stringify(tx, null, 2));
@@ -37,7 +30,7 @@ async function main() {
     })
     .then(result => {
       console.log(result);
-    })
+    });
 }
 
 main().catch(console.error);

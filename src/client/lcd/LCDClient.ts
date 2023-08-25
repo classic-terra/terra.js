@@ -52,16 +52,15 @@ export interface LCDClientConfig {
 }
 
 const DEFAULT_LCD_OPTIONS: Partial<LCDClientConfig> = {
-  gasAdjustment: 1.75,
+  gasAdjustment: 2.0,
 };
 
 // isClassic network: true
 // forked network : false
-const DEFAULT_NETWORK_TYPE_BY_CHAIN_ID: { [key: string]: boolean } = {
+const IS_CLASSIC_BY_CHAIN_ID: { [key: string]: boolean } = {
   default: false,
   'columbus-5': true,
-  'bombay-12': true,
-  'pisco-1': false,
+  'rebel-2': true,
 };
 
 const DEFAULT_GAS_PRICES_BY_CHAIN_ID: { [key: string]: Coins.Input } = {
@@ -69,13 +68,10 @@ const DEFAULT_GAS_PRICES_BY_CHAIN_ID: { [key: string]: Coins.Input } = {
     uluna: 0.15,
   },
   'columbus-5': {
-    uusd: 0.15,
+    uluna: 30.0,
   },
-  'bombay-12': {
-    uusd: 0.15,
-  },
-  'pisco-1': {
-    uluna: 0.15,
+  'rebel-2': {
+    uluna: 30.0,
   },
 };
 
@@ -133,8 +129,8 @@ export class LCDClient {
         DEFAULT_GAS_PRICES_BY_CHAIN_ID[config.chainID] ||
         DEFAULT_GAS_PRICES_BY_CHAIN_ID['default'],
       isClassic:
-        DEFAULT_NETWORK_TYPE_BY_CHAIN_ID[config.chainID] ||
-        DEFAULT_NETWORK_TYPE_BY_CHAIN_ID['default'],
+        IS_CLASSIC_BY_CHAIN_ID[config.chainID] ||
+        IS_CLASSIC_BY_CHAIN_ID['default'],
       ...config,
     };
 

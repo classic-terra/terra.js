@@ -63,6 +63,7 @@ async function main() {
   const client = new LCDClient({
     URL: 'http://localhost:1317',
     chainID: 'localterra',
+    isClassic: !!process.env.TERRA_IS_CLASSIC,
   });
 
   // Granter (terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v)

@@ -15,7 +15,7 @@ async function main() {
   const client = new LCDClient({
     chainID: 'localterra',
     URL: 'http://localhost:1317',
-    isClassic: true,
+    isClassic: !!process.env.TERRA_IS_CLASSIC,
   });
 
   // create a simple message that moves coin balances
@@ -56,7 +56,6 @@ async function main() {
     {
       msgs: [send],
       memo: 'memo',
-      fee: new Fee(200000, '300uluna'),
     }
   );
 
@@ -83,8 +82,9 @@ async function main() {
   );
 
   tx.appendSignatures([sig1, sig2]);
+  console.log(JSON.stringify(tx, null, 2));
   const result = await client.tx.broadcast(tx);
-  console.log(JSON.stringify(result, null, 2));
+  console.log(result);
 }
 
 main().catch(console.error);

@@ -10,6 +10,7 @@ async function main() {
   const client = new LCDClient({
     chainID: 'localterra',
     URL: 'http://localhost:1317',
+    isClassic: !!process.env.TERRA_IS_CLASSIC,
   });
 
   // a wallet can be created out of any key
@@ -23,17 +24,17 @@ async function main() {
     { uluna: 1000000 }
   );
 
-  return wallet
+  await wallet
     .createAndSignTx({
       msgs: [send],
       memo: 'test from terra.js!',
-      fee: new Fee(200000, '1000uluna'),
     })
     .then(tx => {
+      console.log(JSON.stringify(tx, null, 2));
       return client.tx.broadcast(tx);
     })
     .then(result => {
-      console.log(JSON.stringify(result, null, 2));
+      console.log(result);
     });
 }
 
