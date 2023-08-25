@@ -23,8 +23,7 @@ export function getCodeId(
 
 export function getContractAddress(
   txResult: WaitTxBroadcastResult | BlockTxBroadcastResult | TxInfo,
-  msgIndex = 0,
-  isClassic = false
+  msgIndex = 0
 ): string {
   if (
     isTxError(txResult) ||
@@ -33,17 +32,13 @@ export function getContractAddress(
   ) {
     throw new Error('could not parse contract address -- tx logs are empty.');
   }
-  let eventName: string;
-  let attributeKey: string;
-  if (isClassic) {
-    eventName = 'instantiate_contract';
-    attributeKey = 'contract_address';
-  } else {
-    eventName = 'wasm';
-    attributeKey = '_contract_address';
-  }
+
+  const eventName = 'wasm';
+  const attributeKey = '_contract_address';
+
   const contractAddress =
     txResult.logs[msgIndex].eventsByType[eventName][attributeKey][0];
+
   return contractAddress;
 }
 
@@ -54,8 +49,7 @@ export interface ContractEvent {
 
 export function getContractEvents(
   txResult: WaitTxBroadcastResult | BlockTxBroadcastResult | TxInfo,
-  msgIndex = 0,
-  isClassic = false
+  msgIndex = 0
 ): ContractEvent[] {
   if (
     isTxError(txResult) ||
@@ -65,15 +59,8 @@ export function getContractEvents(
     throw new Error('could not parse contract events -- tx logs are empty.');
   }
 
-  let eventName: string;
-  let attributeKey: string;
-  if (isClassic) {
-    eventName = 'from_contract';
-    attributeKey = 'contract_address';
-  } else {
-    eventName = 'instantiate';
-    attributeKey = '_contract_address';
-  }
+  const eventName = 'instantiate';
+  const attributeKey = '_contract_address';
 
   const contractEvents: ContractEvent[] = [];
   for (const event of txResult.logs[msgIndex].events) {

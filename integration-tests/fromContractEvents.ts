@@ -1,11 +1,12 @@
 import { LCDClient, getContractEvents } from '../src';
 
-const bombay = new LCDClient({
-  chainID: 'bombay-12',
-  URL: 'https://bombay-lcd.terra.dev',
+const client = new LCDClient({
+  chainID: 'localterra',
+  URL: 'http://localhost:1317',
 });
 
-bombay.tx
-  .txInfo('B652DF530D50E470070F3F211519495078082D01B49ED36B762B4E9446CE484E')
+client.tx
+  .txInfo('66F8B52E27B5D6B4CCB7CDF2F10590BF5BFA99D60727E4E17ACB36698CC6AD99')
   .then(txInfo => getContractEvents(txInfo))
-  .then(console.log);
+  .then(console.log)
+  .catch(console.error)

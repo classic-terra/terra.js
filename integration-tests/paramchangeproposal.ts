@@ -5,8 +5,8 @@ import {
 } from '../src';
 
 // test1 key from localterra accounts
-const terra = new LocalTerra();
-const { test1 } = terra.wallets;
+const client = new LocalTerra(!!process.env.TERRA_IS_CLASSIC);
+const { test1 } = client.wallets;
 
 const proposal = new ParameterChangeProposal('testing params', 'yay!', [
   {
@@ -171,24 +171,9 @@ const proposal = new ParameterChangeProposal('testing params', 'yay!', [
     key: 'BlocksPerYear',
     value: '"6311520"',
   },
-  {
-    subspace: 'wasm',
-    key: 'MaxContractSize',
-    value: '"614400"',
-  },
-  {
-    subspace: 'wasm',
-    key: 'MaxContractGas',
-    value: '"20000000"',
-  },
-  {
-    subspace: 'wasm',
-    key: 'MaxContractMsgSize',
-    value: '"4096"',
-  },
 ]);
 
-async function main(): Promise<void> {
+async function main() {
   const submitProposal = new MsgSubmitProposal(
     proposal,
     {},
@@ -199,8 +184,9 @@ async function main(): Promise<void> {
     msgs: [submitProposal],
   });
 
-  const result = await terra.tx.broadcast(tx);
+  console.log(JSON.stringify(tx, null, 2));
+  const result = await client.tx.broadcast(tx);
   console.log(result);
 }
 
-main().then(console.log);
+main().catch(console.error);

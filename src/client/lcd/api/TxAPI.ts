@@ -292,9 +292,7 @@ export class TxAPI extends BaseAPI {
     const gasPrices = options.gasPrices || this.lcd.config.gasPrices;
     const gasAdjustment =
       options.gasAdjustment || this.lcd.config.gasAdjustment;
-    const feeDenoms = options.feeDenoms || [
-      this.lcd.config.isClassic ? 'uusd' : 'uluna',
-    ];
+    const feeDenoms = options.feeDenoms || ['uluna'];
     let gas = options.gas;
     let gasPricesCoins: Coins | undefined;
 
@@ -321,14 +319,16 @@ export class TxAPI extends BaseAPI {
 
     // simulate gas
     if (!gas || gas === 'auto' || gas === '0') {
-      gas = (await this.estimateGas(tx, { gasAdjustment })).toString();
+      gas = await this.estimateGas(tx, { gasAdjustment });
     }
 
-    const feeAmount = gasPricesCoins
+    let feeAmount = gasPricesCoins
       ? gasPricesCoins.mul(gas).toIntCeilCoins()
-      : this.lcd.config.isClassic
-      ? '0uusd'
-      : '0uluna';
+      : new Coins('0uluna');
+
+    if (this.lcd.config.isClassic) {
+      feeAmount = feeAmount.add(await this.computeTax(tx));
+    }
 
     return new Fee(Number.parseInt(gas), feeAmount, '', '');
   }
@@ -339,7 +339,7 @@ export class TxAPI extends BaseAPI {
       gasAdjustment?: Numeric.Input;
       signers?: SignerData[];
     }
-  ): Promise<number> {
+  ): Promise<string> {
     const gasAdjustment =
       options?.gasAdjustment || this.lcd.config.gasAdjustment;
 
@@ -360,11 +360,22 @@ export class TxAPI extends BaseAPI {
       })
       .then(d => SimulateResponse.fromData(d));
 
-    return new Dec(gasAdjustment).mul(simulateRes.gas_info.gas_used).toNumber();
+    return new Dec(gasAdjustment)
+      .mul(simulateRes.gas_info.gas_used)
+      .truncated()
+      .toString();
   }
 
-  public async computeTax(): Promise<Coins> {
-    throw new Error('Tax was removed from network');
+  public async computeTax(tx: Tx): Promise<Coins> {
+    if (!this.lcd.config.isClassic) {
+      throw new Error('Tax was removed from network');
+    }
+
+    return await this.c
+      .post<{ tax_amount: Coins.Data }>(`/terra/tx/v1beta1/compute_tax`, {
+        tx_bytes: this.encode(tx),
+      })
+      .then(d => Coins.fromData(d.tax_amount));
   }
 
   /**
