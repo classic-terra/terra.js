@@ -5,7 +5,7 @@ import { SoftwareUpgradeProposal } from '../src/core/upgrade/proposals';
 const client = new LCDClient({
   chainID: 'localterra',
   URL: 'http://localhost:1317',
-  gasPrices: { uusd: 0.38 },
+  isClassic: !!process.env.TERRA_IS_CLASSIC,
 });
 
 // LocalTerra test1 terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v
@@ -20,7 +20,7 @@ async function main() {
   const blockInfo = await client.tendermint.blockInfo();
 
   const plan = new Plan(
-    'v0.5.3',
+    'v6',
     undefined,
     (+blockInfo.block.header.height + 100).toString(),
     'planinfo',
@@ -32,18 +32,19 @@ async function main() {
     plan
   );
 
-  const execute = new MsgSubmitProposal(
+  const msg = new MsgSubmitProposal(
     prop,
     { uluna: 10000000 },
     wallet.key.accAddress
   );
 
-  const executeTx = await wallet.createAndSignTx({
-    msgs: [execute],
+  const tx = await wallet.createAndSignTx({
+    msgs: [msg],
   });
 
-  const executeTxResult = await client.tx.broadcastSync(executeTx);
-  console.log(executeTxResult);
+  console.log(JSON.stringify(tx, null, 2));
+  const result = await client.tx.broadcastSync(tx);
+  console.log(result);
 }
 
 main().catch(console.error);

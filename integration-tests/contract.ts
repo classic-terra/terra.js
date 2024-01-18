@@ -10,22 +10,22 @@ import {
 import { AccessConfig, AccessType } from '../src/core/wasm/AccessConfig';
 import * as fs from 'fs';
 
-const isLegacy = false;
-const terra = new LocalTerra(isLegacy);
+const isClassic = !!process.env.TERRA_IS_CLASSIC;
+const client = new LocalTerra(isClassic);
 
 // test1 key from localterra accounts
-const { test1 } = terra.wallets;
+const { test1 } = client.wallets;
 
 async function main(): Promise<void> {
   const storeCode = new MsgStoreCode(
     test1.key.accAddress,
-    fs.readFileSync(isLegacy ? 'contract.wasm.7' : 'contract.wasm.8').toString('base64'),
-    isLegacy ? undefined : new AccessConfig(AccessType.ACCESS_TYPE_EVERYBODY, "")
+    fs.readFileSync('contract.wasm.8').toString('base64'),
+    new AccessConfig(AccessType.ACCESS_TYPE_EVERYBODY, "")
   );
   const storeCodeTx = await test1.createAndSignTx({
     msgs: [storeCode],
   });
-  const storeCodeTxResult = await terra.tx.broadcastBlock(storeCodeTx);
+  const storeCodeTxResult = await client.tx.broadcastBlock(storeCodeTx);
 
   console.log(storeCodeTxResult);
 
@@ -49,7 +49,7 @@ async function main(): Promise<void> {
   const instantiateTx = await test1.createAndSignTx({
     msgs: [instantiate],
   });
-  const instantiateTxResult = await terra.tx.broadcastBlock(instantiateTx);
+  const instantiateTxResult = await client.tx.broadcastBlock(instantiateTx);
 
   console.log(instantiateTxResult);
 
@@ -59,7 +59,7 @@ async function main(): Promise<void> {
     );
   }
 
-  const contractAddress = getContractAddress(instantiateTxResult, 0, isLegacy);
+  const contractAddress = getContractAddress(instantiateTxResult, 0);
 
   const execute = new MsgExecuteContract(
     test1.key.accAddress, // sender
@@ -70,16 +70,15 @@ async function main(): Promise<void> {
   const executeTx = await test1.createAndSignTx({
     msgs: [execute],
   });
-  const executeTxResult = await terra.tx.broadcastBlock(executeTx);
+  const executeTxResult = await client.tx.broadcastBlock(executeTx);
   console.log(executeTxResult);
 
-  console.log(await terra.wasm.contractQuery(contractAddress, { "get_count": {} }));
+  console.log(await client.wasm.contractQuery(contractAddress, { "get_count": {} }));
 
-  const [history, _] = await terra.wasm.contractHistory(contractAddress);
+  const [history, _] = await client.wasm.contractHistory(contractAddress);
   console.log(history.map(h => h.toData()));
-  console.log(JSON.stringify(await terra.wasm.contractInfo(contractAddress)));
-  console.log(JSON.stringify(await terra.wasm.codeInfo(+codeId)));
-
+  console.log(JSON.stringify(await client.wasm.contractInfo(contractAddress)));
+  console.log(JSON.stringify(await client.wasm.codeInfo(+codeId)));
 }
 
-main().then(console.log).catch(console.log)
+main().catch(console.log);

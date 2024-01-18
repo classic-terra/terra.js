@@ -1,12 +1,12 @@
-import { Fee, MsgSend } from '../src';
+import { MsgSend } from '../src';
 import { LocalTerra } from '../src';
 import { CLIKey } from '../src/key/CLIKey';
 
-const terra = new LocalTerra();
-const { test1 } = terra.wallets;
-const cliKey = new CLIKey({ keyName: 'operator' });
+const client = new LocalTerra(!!process.env.TERRA_IS_CLASSIC);
+const { test1 } = client.wallets;
+const cliKey = new CLIKey({ keyName: 'test0' });
 
-const cliWallet = terra.wallet(cliKey);
+const cliWallet = client.wallet(cliKey);
 
 const send = new MsgSend(cliWallet.key.accAddress, test1.key.accAddress, {
   uluna: 100000,
@@ -15,10 +15,9 @@ const send = new MsgSend(cliWallet.key.accAddress, test1.key.accAddress, {
 async function main() {
   const tx = await cliWallet.createAndSignTx({
     msgs: [send],
-    fee: new Fee(100000, { uluna: 100000 }, '', ''),
   });
 
-  console.log(await terra.tx.broadcast(tx));
+  console.log(await client.tx.broadcast(tx));
 }
 
 main().catch(console.error);

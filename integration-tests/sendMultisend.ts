@@ -1,4 +1,4 @@
-import { LCDClient, MnemonicKey, MsgMultiSend, SignDoc } from '../src';
+import { LCDClient, MnemonicKey, MsgMultiSend, SignDoc, Fee } from '../src';
 
 async function main() {
   // create a key out of a mnemonic
@@ -9,14 +9,13 @@ async function main() {
 
   const mk2 = new MnemonicKey({
     mnemonic:
-    	'quality vacuum heart guard buzz spike sight swarm shove special gym robust assume sudden deposit grid alcohol choice devote leader tilt noodle tide penalty'
+      'quality vacuum heart guard buzz spike sight swarm shove special gym robust assume sudden deposit grid alcohol choice devote leader tilt noodle tide penalty'
   });
 
-  const bombay = new LCDClient({
+  const client = new LCDClient({
     chainID: 'localterra',
     URL: 'http://localhost:1317',
-    gasPrices: { uluna: 0.38 },
-    isClassic: true
+    isClassic: !!process.env.TERRA_IS_CLASSIC,
   });
 
   // create a simple message that moves coin balances
@@ -39,48 +38,53 @@ async function main() {
     ]
   );
 
-  const accInfo = await bombay.auth.accountInfo(mk.accAddress);
-  const accInfo2 = await bombay.auth.accountInfo(mk2.accAddress);
+  const accInfo = await client.auth.accountInfo(mk.accAddress);
+  const accInfo2 = await client.auth.accountInfo(mk2.accAddress);
 
-  const tx = await bombay.tx.create(
+  const tx = await client.tx.create(
     [
-      { address: mk.accAddress, sequenceNumber: accInfo.getSequenceNumber() },
-      { address: mk2.accAddress, sequenceNumber: accInfo2.getSequenceNumber() },
+      {
+        address: mk.accAddress,
+        sequenceNumber: accInfo.getSequenceNumber(),
+        publicKey: accInfo.getPublicKey(),
+      },
+      { address: mk2.accAddress,
+        sequenceNumber: accInfo2.getSequenceNumber(),
+        publicKey: accInfo2.getPublicKey(),
+      },
     ],
     {
       msgs: [send],
       memo: 'memo',
-      gasPrices: { uluna: 0.456 },
-      gasAdjustment: 1.4,
     }
   );
 
   const sig1 = await mk.createSignatureAmino(
     new SignDoc(
-      bombay.config.chainID,
+      client.config.chainID,
       accInfo.getAccountNumber(),
       accInfo.getSequenceNumber(),
       tx.auth_info,
       tx.body
     ),
-    bombay.config.isClassic
+    client.config.isClassic,
   );
-  console.log(`accinfo1:${accInfo}`);
 
   const sig2 = await mk2.createSignatureAmino(
     new SignDoc(
-      bombay.config.chainID,
+      client.config.chainID,
       accInfo2.getAccountNumber(),
       accInfo2.getSequenceNumber(),
       tx.auth_info,
       tx.body
     ),
-    bombay.config.isClassic
+    client.config.isClassic,
   );
 
   tx.appendSignatures([sig1, sig2]);
-  console.log(JSON.stringify(tx.toData()));
-  bombay.tx.broadcast(tx).then(console.log);
+  console.log(JSON.stringify(tx, null, 2));
+  const result = await client.tx.broadcast(tx);
+  console.log(result);
 }
 
 main().catch(console.error);
